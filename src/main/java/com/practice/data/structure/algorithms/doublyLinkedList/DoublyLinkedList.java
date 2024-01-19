@@ -97,6 +97,7 @@ public class DoublyLinkedList {
             }
         }
         return temp;
+
     }
 
     public boolean set(int index, int value){
