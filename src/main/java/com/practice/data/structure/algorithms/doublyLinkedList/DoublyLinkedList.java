@@ -82,7 +82,7 @@ public class DoublyLinkedList {
         return temp;
     }
 
-    public Node get(int index) {
+    public Node get2(int index) {
         if (index < 0 || index >= length) return null;
         Node temp;
         if (index < length / 2) {
@@ -100,7 +100,7 @@ public class DoublyLinkedList {
 
     }
 
-    public boolean set(int index, int value) {
+    public boolean set2(int index, int value) {
         Node temp = get(index);
         if (temp == null) {
             return false;
@@ -110,7 +110,7 @@ public class DoublyLinkedList {
         }
     }
 
-    public boolean insert(int index, int value) {
+    public boolean insert2(int index, int value) {
         if (index < 0 || index > length) return false;
         else if (index == 0) prepend(value);
         else if (index == length) append(value);
@@ -206,7 +206,7 @@ public class DoublyLinkedList {
     }
 
     public boolean insert(int index, int value) {
-        if (index < 0 || index > length) return null;
+        if (index < 0 || index > length) return false;
         if (index == 0) prepend(value);
         else if (index == length) append(value);
         else {
