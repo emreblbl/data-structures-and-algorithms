@@ -26,6 +26,7 @@ public class HashTable {
     }
 
     public void printTable() {
+        List<String> allKeys = new ArrayList<>();
         Node temp = null;
         for (int i = 0; i < dataMap.length; i++) {
             temp = dataMap[i];
