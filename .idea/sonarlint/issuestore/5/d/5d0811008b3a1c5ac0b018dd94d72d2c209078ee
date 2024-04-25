@@ -1,0 +1,26 @@
+
+L
+java:S3740"/Provide the parametrized type for this generic.(Ù„õª8Ÿ„èúÜ1
+L
+java:S3740"/Provide the parametrized type for this generic.(Ù„õª8 „èúÜ1
+Q
+java:S3740,"/Provide the parametrized type for this generic.(”¹×»ıÿÿÿÿ8 „èúÜ1
+Q
+java:S3740,"/Provide the parametrized type for this generic.(”¹×»ıÿÿÿÿ8 „èúÜ1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(÷Ç¼Áúÿÿÿÿ8¡„èúÜ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æØÜÌúÿÿÿÿ8¡„èúÜ1
+c
+java:S1126"AReplace this if-then-else statement by a single return statement.(ùÚ´ÿıÿÿÿÿ8¯„èúÜ1
+U
+java:S1854#"8Remove this useless assignment to local variable "pair".( Ò¯ñ8¯„èúÜ1
+F
+java:S1481#")Remove this unused "pair" local variable.( Ò¯ñ8°„èúÜ1
+[
+java:S1854/">Remove this useless assignment to local variable "complement".(Ù¸¿¨8±„èúÜ1
+L
+java:S1481/"/Remove this unused "complement" local variable.(Ù¸¿¨8±„èúÜ1
+X
+java:S17510"6Remove this "return" statement or make it conditional.(´ßŠ§ıÿÿÿÿ8Ì™éúÜ1
+9
+java:S11164"Remove this empty statement.(‰õ¿8²„èúÜ1
+G	java:S1067"+Replace this use of System.out by a logger.(€†­ğ8³„èúÜ1
