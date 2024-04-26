@@ -6,18 +6,24 @@ public class Main {
     public static void main(String[] args) {
         Heap heap = new Heap();
 
-        heap.insert(10);
-        heap.insert(20);
-        heap.insert(30);
-        heap.insert(40);
-        heap.insert(50);
-        heap.insert(60);
-        heap.insert(70);
+        heap.insert(95);
+        heap.insert(75);
         heap.insert(80);
-        heap.insert(90);
-        heap.insert(100);
+        heap.insert(55);
+        heap.insert(60);
+        heap.insert(50);
+        heap.insert(65);
 
         System.out.println(heap.printHeap());
+
+        heap.remove();
+
+        System.out.println(heap.printHeap());
+
+        heap.remove();
+
+        System.out.println(heap.printHeap());
+
     }
 
 }
