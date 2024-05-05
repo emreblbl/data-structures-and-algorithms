@@ -1,0 +1,16 @@
+
+
+
+Dynamic Programming :
+
+1. Memoization :
+    - is a technique to store the solutions of subproblems.
+    - idea is to avoiding the same subproblems multiple times.
+    - when subproblem is encountered, it's solution is first looked up in a memo. If the solution is found it's used,
+    if not, the subp. is solved, and the solution is stored in memo for future reference
+
+ 2. Tabulation
+    - is used to solve problems
+    - builds a table in bottom-up manner, filling it with the solutions to the subproblems.
+    - the solutions of larger subproblems are built from the solutions of smaller subproblems already found.
+    unlike memoization, tabulation doesn't expliclty call subproblems recursively, avoiding the overhead of function calls.
