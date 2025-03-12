@@ -1,0 +1,23 @@
+public class AreaService {
+   public double calculateArea(List<Object> shapes) {
+       double area = 0;
+       for (Object shape : shapes) {
+           if (shape instanceof Rectangle) {
+               Rectangle rect = (Rectangle) shape;
+               area += (rect.getLength() * rect.getHeight());
+           } else if (shape instanceof Circle) {
+               Circle circle = (Circle) shape;
+               area += circle.getRadius() * cirlce.getRadius() * Math.PI;
+           } else {
+               throw new RuntimeException("Shape not supported");
+           }
+       }
+       return area;
+   }
+}
+
+
+
+
+
+Select  C.Name , C.SURNAME FROM Customers c, Accounts
