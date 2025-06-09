@@ -66,4 +66,31 @@ public class DFSGraph {
         }
     }
 
+    /*
+    Definition of DFS :
+            ### Purpose
+
+        DFS is a strategy for systematically exploring every node of a tree or graph.
+
+        ### Core procedure
+
+        1. **Go deep first** – Starting at a chosen root (or any start vertex), follow one branch as far as possible, visiting each vertex on the way down and marking it as “visited.”
+        2. **Back-track** – When you reach a dead end (a vertex with no unvisited children/adjacent vertices), step back to the nearest ancestor that still has unvisited neighbours and continue from there.
+        3. **Repeat** until every reachable vertex has been visited.
+
+        ### Essential terminology
+
+        | Term | Correct form | Meaning |
+        | --- | --- | --- |
+        | **Vertex** (plural **vertices**) | *vertex / vertices* | A node in a graph. Vertices are connected to one another by **edges**. |
+        | **Adjacent vertices** | *adjacent vertices* | Two vertices directly connected by a single edge. |
+
+        ### Mini-example for context
+
+        Consider a graph with vertices `A, B, C, D, E` and edges `A-B, B-C, C-D, B-E`.
+
+        A DFS starting at `A` could visit the vertices in this sequence:
+
+        `A → B → C → D` (dead end, back-track to `B`) `→ E`.
+     */
 }
