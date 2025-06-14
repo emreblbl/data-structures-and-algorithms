@@ -28,5 +28,9 @@ public class JumpGameTwo {
         // [2, 3, 0, 1, 4]
         int[] nums2 = {2, 3, 0, 1, 4};
         System.out.println("Test 2: " + jumpGameTwo.jump(nums2)); // Expected: 2
+
+        // [1, 2, 1, 1, 1]
+        int[] nums3 = {1, 2, 1, 1, 1};
+        System.out.println("Test 3: " + jumpGameTwo.jump(nums3)); // Expected: 3
     }
 }
