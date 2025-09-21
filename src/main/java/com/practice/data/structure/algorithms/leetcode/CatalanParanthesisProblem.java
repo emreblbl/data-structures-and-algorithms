@@ -43,5 +43,6 @@ public class CatalanParanthesisProblem {
         System.out.println("Input: n = " + n2);
         System.out.println("Output: " + solver.generateParenthesis(n2));
         // Expected: ["()"]
+
     }
 }
